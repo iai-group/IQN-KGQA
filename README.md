@@ -1,28 +1,26 @@
-# IAI Paper Release Template
-
-*The following document provides a template for a README file of a GitHub repository accompanying a paper. Instructions are typeset in italic and should be removed.*
-
-  * *Change the first line of this file to "# Paper Title in Camelcase"*
+# Would You Ask it that Way? Measuring and Improving Question Naturalness for Knowledge Graph Question Answering
 
 This repository provides resources developed within the following article:
 
-> A. Smith, B. Smith and C. Smith. **Paper title in Camelcase.** In: Proceedings or Journal details (series). Publisher. City, Country. Month 2018. [DOI: XX.XXXX/XXXXXXX.XXXXXXX](link to full DOI URL: http://*/XX.XXXX/XXXXXXX.XXXXXXX) [PDF](link to PDF on arXiv)
+> T. Linjordet, K. Balog. **Would You Ask it that Way? Measuring and Improving Question Naturalness for Knowledge Graph Question Answering.** Submitted for review. 2022. 
 
 ## Summary
 
 *Here goes the summary of the work (the paper abstract is often a good starting point, but it can be extended/customized).*
 
-## Some title
+## IGN-KGQA test collection
+
+The main resource developed in our paper was the IGN-KGQA test collection, which includes 
 
 This repository is structured as follows:
 
-- `directory_bla/`: bla bla.
+- `test_collection/`: bla bla.
+- `test_collection/final_questions.csv`: This CSV file has four columns: `Dataset`, `QID`, `Original Question`, and `Final Question`. 
+- ...`directory_ble/script_xyz.py`: ble ble Python script.
 
-- `directory_ble/script_xyz.py`: ble ble Python script.
+- ..`directory_bli/abc.json`: a JSON file containing bli bli.
 
-- `directory_bli/abc.json`: a JSON file containing bli bli.
-
-### Maybe more sections or subsections
+### ..Maybe more sections or subsections
 
 Blu blu.
 
