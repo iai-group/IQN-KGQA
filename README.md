@@ -15,7 +15,7 @@ The main resource developed in our paper was the IGN-KGQA test collection, which
 This repository is structured as follows:
 
 - `test_collection/`: bla bla.
-- `test_collection/final_questions.csv`: This CSV file has four columns: `Dataset`, `QID`, `Original Question`, and `Final Question`. 
+- `test_collection/final_questions.csv`: This CSV file has four columns: `Dataset`, `QID`, `OriginalQuestion`, and `FinalQuestion`. 
 - ...`directory_ble/script_xyz.py`: ble ble Python script.
 
 - ..`directory_bli/abc.json`: a JSON file containing bli bli.
@@ -24,7 +24,7 @@ This repository is structured as follows:
 
 In the file `test_collection/final_questions.csv`, the QID column is populated by the respective question ID from the original dataset (`Dataset`), except for those rows with original questions sampled from DBNQA*, where the QID is taken to be the line number in the test split of the original dataset. See Linjordet & Balog 2020. 
 
-For each row, the sampled original question is given in the column `Original Question`. The column `Final Question` contains either the same string, or else the rewritten question which was found by crowd workers to be a more natural way of asking the question. 
+For each row, the sampled original question is given in the column `OriginalQuestion`. The column `FinalQuestion` contains either the same string, or else the rewritten question which was found by crowd workers to be a more natural way of asking the question. 
 
 ## Citation
 
