@@ -10,15 +10,12 @@ This repository provides resources developed within the following article:
 
 ## IGN-KGQA test collection
 
-The main resource developed in our paper was the IGN-KGQA test collection, which includes 
+The main resource developed in our paper was the "Improving Question Naturalness for Knowledge Graph Question Answering" (IQN-KGQA) test colletion. 
 
 This repository is structured as follows:
 
-- `test_collection/`: bla bla.
-- `test_collection/final_questions.csv`: This CSV file has four columns: `Dataset`, `QID`, `OriginalQuestion`, and `FinalQuestion`. 
-- ...`directory_ble/script_xyz.py`: ble ble Python script.
-
-- ..`directory_bli/abc.json`: a JSON file containing bli bli.
+- `test_collection/`: The files that constitute the test collection IQN-KGQA.
+- `test_collection/final_questions.csv`: Original and final NL questions in test collection. This CSV file has four columns: `Dataset`, `QID`, `OriginalQuestion`, and `FinalQuestion`. 
 
 ### Detailed descriptions
 
@@ -45,4 +42,4 @@ If you use the resources presented in this repository, please cite:
 
 ## Contact
 
-Should you have any questions, please contact `<some guy>` at `<some_actual_email_localpart>`[AT]uis.no (with [AT] replaced by @).
+Should you have any questions, please contact `Trond Linjordet` at `trond.linjotdet`[AT]uis.no (with [AT] replaced by @).
