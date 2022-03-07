@@ -23,23 +23,6 @@ In the file `test_collection/final_questions.csv`, the QID column is populated b
 
 For each row, the sampled original question is given in the column `OriginalQuestion`. The column `FinalQuestion` contains either the same string, or else the rewritten question which was found by crowd workers to be a more natural way of asking the question. 
 
-## Citation
-
-If you use the resources presented in this repository, please cite:
-
-```
-@inproceedings{Lastname:YYYY:ABC,
-  author =    {...},
-  title =     {...},
-  booktitle = {Full proceedings title},
-  series =    {...},
-  year =      {...},
-  pages =     {...--...},
-  doi =       {XX.XXXX/XXXXXXX.XXXXXXX},
-  publisher = {ACM or Springer, usually; choose your faith}
-}
-```
-
 ## Contact
 
 Should you have any questions, please contact `Trond Linjordet` at `trond.linjotdet`[AT]uis.no (with [AT] replaced by @).
