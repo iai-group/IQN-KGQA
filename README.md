@@ -25,4 +25,4 @@ For each row, the sampled original question is given in the column `OriginalQues
 
 ## Contact
 
-Should you have any questions, please contact `Trond Linjordet` at `trond.linjotdet`[AT]uis.no (with [AT] replaced by @).
+Should you have any questions, please contact `Trond Linjordet` at `trond.linjordet`[AT]uis.no (with [AT] replaced by @).
