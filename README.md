@@ -14,10 +14,18 @@ The main resource developed in our paper was the "Improving Question Naturalness
 
 This repository is structured as follows:
 
-- `test_collection/`: The files that constitute the test collection IQN-KGQA.
+- `test_collection/`: Contains the files that constitute the test collection IQN-KGQA.
 - `test_collection/final_questions.csv`: Original and final NL questions in test collection. This CSV file has four columns: `Dataset`, `QID`, `OriginalQuestion`, and `FinalQuestion`. 
+- `test_collection/DBNQA\*/`: Contains the files corresponding the NL questions sampled from DBNQA*. 
+- `test_collection/DBNQA\*/test_sample_original.en`: The original NL questions sampled from DBNQA* test split. 
+- `test_collection/DBNQA\*/test_sample_final.en`: The final NL questions after crowdsourced rewrites were substituted. 
+- `test_collection/DBNQA\*/test_sample.sparql`: The SPARQL queries corresponding line-by-line to either of the two preceding NL questions files.
+- `test_collection/GrailQA_v1.0/grailqa_v1.0_dev_sample_original.json`: The original instances (including NL questions) sampled from GrailQA dev split.
+- `test_collection/GrailQA_v1.0/grailqa_v1.0_dev_sample_final.json`: The final instances with NL questions substituted by crowdsourced rewrites.
+- `test_collection/LC_QuAD_2.0/test_sample_original.json`: The original instances (including NL questions) sampled from LC-QuAD v2.0 test split.
+- `test_collection/LC_QuAD_2.0/test_sample_final.json`: The final instances with NL questions substituted by crowdsourced rewrites.
 
-### Detailed descriptions
+### Detailed description of `final_questions.csv`
 
 In the file `test_collection/final_questions.csv`, the QID column is populated by the respective question ID from the original dataset (`Dataset`), except for those rows with original questions sampled from DBNQA*, where the QID is taken to be the line number in the test split of the original dataset. See Linjordet & Balog 2020. 
 
@@ -25,4 +33,4 @@ For each row, the sampled original question is given in the column `OriginalQues
 
 ## Contact
 
-Should you have any questions, please contact `Trond Linjordet` at `trond.linjotdet`[AT]uis.no (with [AT] replaced by @).
+Should you have any questions, please contact `Trond Linjordet` at `trond.linjordet`[AT]uis.no (with [AT] replaced by @).
