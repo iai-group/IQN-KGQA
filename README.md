@@ -17,13 +17,15 @@ This repository is structured as follows:
 - `test_collection/`: Contains the files that constitute the test collection IQN-KGQA.
     - `final_questions.csv`: Original and final NL questions in test collection. This CSV file has four columns: `Dataset`, `QID`, `OriginalQuestion`, and `FinalQuestion`. 
     - `DBNQA\*/`: Contains the files corresponding the NL questions sampled from DBNQA*. 
-    - `DBNQA\*/test_sample_original.en`: The original NL questions sampled from DBNQA* test split. 
-    - `DBNQA\*/test_sample_final.en`: The final NL questions after crowdsourced rewrites were substituted. 
-    - `DBNQA\*/test_sample.sparql`: The SPARQL queries corresponding line-by-line to either of the two preceding NL questions files.
-    - `GrailQA_v1.0/grailqa_v1.0_dev_sample_original.json`: The original instances (including NL questions) sampled from GrailQA dev split.
-    - `GrailQA_v1.0/grailqa_v1.0_dev_sample_final.json`: The final instances with NL questions substituted by crowdsourced rewrites.
-    - `LC_QuAD_2.0/test_sample_original.json`: The original instances (including NL questions) sampled from LC-QuAD v2.0 test split.
-    - `LC_QuAD_2.0/test_sample_final.json`: The final instances with NL questions substituted by crowdsourced rewrites.
+       - `test_sample_original.en`: The original NL questions sampled from DBNQA* test split. 
+       - `test_sample_final.en`: The final NL questions after crowdsourced rewrites were substituted. 
+       - `test_sample.sparql`: The SPARQL queries corresponding line-by-line to either of the two preceding NL questions files.
+    - `GrailQA_v1.0/`: Contains the files corresponding to the instances sampled from GrailQA v1.0.
+        - `grailqa_v1.0_dev_sample_original.json`: The original instances (including NL questions) sampled from GrailQA dev split.
+        - `grailqa_v1.0_dev_sample_final.json`: The final instances with NL questions substituted by crowdsourced rewrites.
+    - `LC_QuAD_2.0/`: Contains the files corresponding to the instances sampled from LC-QuAD v2.0.
+        - `test_sample_original.json`: The original instances (including NL questions) sampled from LC-QuAD v2.0 test split.
+        - `test_sample_final.json`: The final instances with NL questions substituted by crowdsourced rewrites.
 
 ### Detailed description of `final_questions.csv`
 
