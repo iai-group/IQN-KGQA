@@ -2,7 +2,7 @@
 
 This repository provides resources developed within the following article:
 
-> T. Linjordet, K. Balog. **Would You Ask it that Way? Measuring and Improving Question Naturalness for Knowledge Graph Question Answering.** Submitted for review. 2022. 
+> T. Linjordet, K. Balog. **Would You Ask it that Way? Measuring and Improving Question Naturalness for Knowledge Graph Question Answering.** [Accepted for publication, SIGIR '22.](https://sigir.org/sigir2022/) 
 
 ## Summary
 
